@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 100%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.expired{
+  background-image: url('./pictures/expired.jpg');
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+}
+
+.invalid{
+  background-image: url('./pictures/invalid.jpg');
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+}
+
+.wrapper{
+  background-image: url('./pictures/Landing.jpg');
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+
+}
+
+.exitWrapper{
+  background-image: url('./pictures/exited.jpg');
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+}
+
+.errorWrapper {
+  font-size: 25px;
+  width: 25%;
+  padding: 5px;
+  margin: auto;
+  border: 1px black solid;
+
+  text-align: center;
+  background-color: whitesmoke;
+ 
+}
+
+.errorMessage {
+  color: red;
+  font-weight: 400px;
+}
+
+.landingButton{
+ 
+  position: absolute;
+  Bottom:10%;
+  left:38%;
+  
+ 
+  width:24%;
+  height:76px;
+ 
+  border-radius:50px;
+  border: 1px solid rgb(4,86,126);
+  color:white;
+  font-size:20px;
+  
+  
+}
+
+.landingButton:hover{
+  outline:none;
+}
+
+.color{
+  background-color:rgb(4,86,126);
+}
+
+.pressedColor{
+  background-color:rgb(87, 138, 163)
+}
+.wrapperSuccess{
+  
+    background-image: url('./pictures/success.jpg');
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+  
+ 
+}
+
+.spinner{
+  width:50%;
+  margin-left: 25%;
+  
+}
+
+.landingButtonSpan{
+  position: absolute;
+  font-weight:500;
+  top:80%;
+  left:37%;
+  padding-top:35px;
+  background-size:cover;
+  width:26%;
+  height:100px;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  color:rgb(43, 121, 160)
+}
+
+.fontLarger{
+
+  position: absolute;
+  font-weight:bold;
+  font-size: 25px;
+  top:80%;
+  left:37%;
+  padding-top:42px;
+  background-size:cover;
+  width:26%;
+  height:100px;
+  text-align: center;
+  z-index: 2;
+  color: white;
+}
+
+
+.buttonLarge{
+
+  position: absolute;
+  font-weight:500;
+  top:78%;
+  left:37%;
+  padding-top:35px;
+  background-size:cover;
+  width:28%;
+  height:100px;
+  text-align: center;
+  z-index: 2;
+  color: white;
+
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
