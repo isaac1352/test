@@ -13,6 +13,7 @@ import Auth from './authenticate'
 
 import PlaidLink from './linkPlaid.js'
 import Success from './success.js'
+import Test from './test.js'
 
 
 
@@ -33,7 +34,7 @@ class App extends React.Component {
 <Route exact path='/' component={Auth}></Route> 
            <Switch>
            
-
+           <Route exact path='/Test' component={Test}></Route> 
           <Route exact path='/plaidLink' component={PlaidLink}></Route> 
 
           <Route path="/success" >
