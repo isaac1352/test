@@ -18,7 +18,7 @@ function Test() {
     // similar to componentDidMount()
     useEffect(() => {
         console.log('your in')
-      fetch("http://localhost:3000/items")
+      fetch("amplify/backend/items")
         .then(res => res.json())
         .then(
           (result) => {
