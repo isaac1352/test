@@ -18,7 +18,7 @@ function Test() {
     // similar to componentDidMount()
     useEffect(() => {
         console.log('your in')
-      fetch("items")
+      fetch("http://localhost:3000/items")
         .then(res => res.json())
         .then(
           (result) => {
