@@ -20,12 +20,27 @@
   height: 100vh;
 }
 
+@media only screen and (max-width: 600px) {
+  .invalid {
+    width: 90%;
+    height: 75vh;
+  }
+}
+
+
+
 .invalid{
-  background-image: url('./pictures/invalid.jpg');
-  background-size: cover;
+
   width:100%;
   height: 100vh;
+  margin: auto;
+  background-image: url('./pictures/invalid.jpg');
+  background-size: cover;
+
+  
 }
+
+
 
 .wrapper{
   background-image: url('./pictures/Landing.jpg');
