@@ -13,8 +13,8 @@ import Auth from './authenticate'
 
 import PlaidLink from './linkPlaid.js'
 import Success from './success.js'
-
-
+import TestLanding from './testingLanding.js'
+import TestSuccess from './testSuccess'
 
 import Imgs from './imgs'
 import './App.css';
@@ -42,6 +42,14 @@ class App extends React.Component {
       
           <Route path="/home/">
             <Landing />
+          </Route>
+
+          <Route path="/testLanding">
+            <TestLanding />
+          </Route>
+
+          <Route path="/TestSuccess">
+            <TestSuccess />
           </Route>
 
           
