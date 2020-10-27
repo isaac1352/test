@@ -17,7 +17,7 @@ console.log('in the error')
                 <div className="container_wrap container_wrap_one successStyle" >
                   <div className="content_wrap success_img" >
                     
-                    <p className="success_para">This is an {props.message} Token <br></br>Please contact SCS representative for assistance</p>
+                    <p className="success_para">This is an {props.message} Token <br></br>Please contact an SCS representative for assistance</p>
                   </div>
                 </div>
               </div>
