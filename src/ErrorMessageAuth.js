@@ -3,6 +3,8 @@ import logo from './pictures/logo.png'
 
 
  function Error(props){
+
+      console.log('you are in')
 console.log('in the error')
    
       //  return <div className={props.message}><img src></img></div> 
