@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import queryString from 'query-string'
 import Success from './success'
-import LoaderSpinner from './imgs'
+import Loader from './loader'
 
 function SetAccessToken(props) {
 
@@ -53,7 +53,7 @@ console.log(props.token," ",props.theMetadata)
 
     } else if (!isLoaded) {
 
-        return(<LoaderSpinner/>)
+        return(<></>)
 
     }else{
         return <Success/>

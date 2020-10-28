@@ -9,9 +9,7 @@ class Success extends React.Component {
 
     return (
       <div class="page_wrap">
-        <header className="header myMargin" >
-          <img src={logo} alt="" className="logo" />
-        </header>
+       
         <div className="container">
           <div className="container_wrap container_wrap_one successStyle" >
             <div className="content_wrap success_img" >

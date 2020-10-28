@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
   Link,
-  Redirect 
+  Redirect
 } from "react-router-dom";
 import Landing from './landing.js'
 import SignUp from './SignUp.js'
@@ -15,31 +15,33 @@ import PlaidLink from './linkPlaid.js'
 import Success from './success.js'
 import TestLanding from './testingLanding.js'
 import TestSuccess from './testSuccess'
+import logo from './pictures/logo.png'
 
-import Imgs from './imgs'
 import './App.css';
 
 class App extends React.Component {
 
- 
- 
+
+
   render() {
-      console.log('react')
-    return (
+    console.log('react')
+    return (<>
+      <header className="header myMargin" >
+        <img src={logo} alt="" className="logo" />
+      </header>
 
-      
-    <Router>
+      <Router>
 
-<Route exact path='/' component={Auth}></Route> 
-           <Switch>
-           
+        <Route exact path='/' component={Auth}></Route>
+        <Switch>
 
-          <Route exact path='/plaidLink' component={PlaidLink}></Route> 
+
+          <Route exact path='/plaidLink' component={PlaidLink}></Route>
 
           <Route path="/success" >
             <Success />
           </Route>
-      
+
           <Route path="/home/">
             <Landing />
           </Route>
@@ -52,18 +54,18 @@ class App extends React.Component {
             <TestSuccess />
           </Route>
 
-          
-          </Switch>
-         </Router>
-    
-    )
 
-         
+        </Switch>
+      </Router>
+
+    </>)
+
+
   }
 }
 
 
-  
+
 
 
 export default App;

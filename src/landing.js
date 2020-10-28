@@ -34,9 +34,7 @@ class Landing extends React.Component {
    // return (<div className="wrapper"><NavLink to={`/plaidLink?token=${this.props.queryParms.token}`}><button onMouseDown={this.mouseDown}  className={`${this.state.landingButton} ${this.state.color} `} >Create Account</button></NavLink></div>) 
       return(
         <div class="page_wrap">
-        <header className="header" id="myHeader">
-            <img src={logo} alt="" className="logo"></img>
-        </header>
+        
         <div className="container">
             <div className="container_wrap container_wrap_one">
                 <div className="content_wrap">

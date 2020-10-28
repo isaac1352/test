@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import Exited from'./exited'
 
-import Spinner from './imgs'
+import Spinner from './loader'
 
 function ClientExited(props) {
     const [error, setError] = useState(null);

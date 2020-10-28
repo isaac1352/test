@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.SCSBackground{
+width:100%;
+height: 100vh;
+background-image: url("pictures/bg_over.png");
+
+background-color: rgb(4,86,126);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -114,8 +122,9 @@
 }
 
 .spinner{
-  width:50%;
-  margin-left: 25%;
+  width:5%;
+  margin-left: 47.5%;
+  margin-top: 15%;
   
 }
 

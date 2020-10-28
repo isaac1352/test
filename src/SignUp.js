@@ -4,7 +4,7 @@ import React, { useCallback, useState } from 'react';
 import { usePlaidLink } from 'react-plaid-link';
 import { Redirect } from 'react-router-dom'
 import SetAccessToken from './setAccesToken'
-import LoaderSpinner from './imgs'
+import Loader from './loader'
 import ClientExited from './ClientExited'
 
 import Success from './success'
@@ -54,12 +54,14 @@ const SignUp = (props) => {
   open();
 
   if (success) {
-    return <SetAccessToken theMetadata={data} token={props.queryParms.token} />
+    return (<><div className="SCSBackground"></div>
+      <SetAccessToken theMetadata={data} token={props.queryParms.token} />
+    </>)
 
   } else if (exit) {
     return <ClientExited data={exitMetaError} token={props.queryParms.token} />
   } else {
-    return (<LoaderSpinner />)
+    return (<></>)
   }
 
 };
