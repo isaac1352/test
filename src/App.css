@@ -124,7 +124,7 @@ background-color: rgb(4,86,126);
 .spinner{
   width:5%;
   margin-left: 48%;
-  margin-top: 15%;
+  margin-top: 13%;
   
 }
 
@@ -401,6 +401,12 @@ header.myMargin {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .spinner{
+    width:5%;
+    margin-left: 48%;
+    margin-top: 40%;
+    
+  }
   .container {
       width: 100%;
       margin: auto;
@@ -452,6 +458,13 @@ header.myMargin {
   header.header {
       margin-bottom: 10px!important;
   }
+
+  .spinner{
+    width:5%;
+    margin-left: 48%;
+    margin-top: 30%;
+    
+  }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
@@ -463,4 +476,6 @@ header.myMargin {
   header.header {
       margin-bottom: 30px!important;
   }
+
+  
 }
