@@ -53,7 +53,7 @@ console.log(props.token," ",props.theMetadata)
 
     } else if (!isLoaded) {
 
-        return(<></>)
+        return(<Loader/>)
 
     }else{
         return <Success/>

@@ -54,9 +54,9 @@ const SignUp = (props) => {
   open();
 
   if (success) {
-    return (<><div className="SCSBackground"></div>
-      <SetAccessToken theMetadata={data} token={props.queryParms.token} />
-    </>)
+    
+    return  <SetAccessToken theMetadata={data} token={props.queryParms.token} />
+    
 
   } else if (exit) {
     return <ClientExited data={exitMetaError} token={props.queryParms.token} />
