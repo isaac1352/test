@@ -27,7 +27,7 @@ class App extends React.Component {
     console.log('react')
     return (<>
       <header className="header myMargin" >
-        <img src={logo} alt="" className="logo" />
+        <img src={logo} alt="" className="logo" width="95px"/>
       </header>
 
       <Router>
