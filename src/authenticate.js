@@ -4,6 +4,7 @@ import Landing from './landing'
 import ExpiredError from './ErrorMessageAuth'
 
 import queryString from 'query-string'
+import Loader from './loader'
 import './App.css';
 
 function Auth({ match, location }) {
@@ -52,7 +53,7 @@ function Auth({ match, location }) {
 
     } else if (!isLoaded) {
 
-        return <div></div>;
+        return <Loader/>;
 
     } else if (items.message === 'valid') {
 

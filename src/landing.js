@@ -39,7 +39,7 @@ class Landing extends React.Component {
             <div className="container_wrap container_wrap_one">
                 <div className="content_wrap">
                     <h5>Create acount</h5>
-                    <h6>security message here....</h6>
+                    {/*<h6>security message here....</h6>*/}
                     <p><img src={lock} alt="" />Protected by bank-level security</p>
                 </div>
             </div>
