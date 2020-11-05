@@ -46,7 +46,7 @@ class Landing extends React.Component {
 
             <div className="container_wrap container_wrap_two">
                 <div className="content_wrap">
-                <NavLink to={`/plaidLink?token=${this.props.queryParms.token}`}><button onMouseDown={this.mouseDown}>Create acount</button></NavLink>
+                <NavLink to={`/plaidLink?token=${this.props.queryParms.token}`}><button onMouseDown={this.mouseDown}>Create account</button></NavLink>
                 </div>
             </div>
 
