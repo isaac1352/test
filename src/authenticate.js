@@ -20,7 +20,7 @@ function Auth({ match, location }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        console.log('your in')
+        console.log('your ')
         fetch(`https://plaid.scspooledtrust.org/tok`, {
             method: 'POST',
             headers: {
