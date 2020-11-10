@@ -42,7 +42,7 @@ function PlaidLink({location}) {
     }, [])
   
     if (error) {
-      return <div>Error: {error.message}</div>;
+      return <div>Error: {error.message} plaidlink. Please notify an SCS representative</div>;
     } else if (!isLoaded) {
       return <div></div>;
     } else {
