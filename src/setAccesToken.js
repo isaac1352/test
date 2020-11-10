@@ -49,7 +49,7 @@ console.log(props.token," ",props.theMetadata)
 
     if (error) { 
 
-        return <div>Error: {error.message}</div>;
+        return <div>Error: {error.message} setAccessToken. Please notify an SCS representative.</div>;
 
     } else if (!isLoaded) {
 
