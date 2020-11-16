@@ -47,15 +47,18 @@ console.log(props.token," ",props.theMetadata)
             )
     }, [])
 
-    if (error) { 
+    /*if (error) { 
+
+        console.log(error,'the error')
 
         return <div>Error: {error.message} setAccessToken. Please notify an SCS representative.</div>;
 
-    } else if (!isLoaded) {
+    } else */if (!isLoaded) {
 
         return(<Loader/>)
 
     }else{
+        console.log('success')
         return <Success/>
     }
 

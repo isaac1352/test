@@ -8,7 +8,7 @@ class Success extends React.Component {
     // return <div className="wrapperSuccess"></div> 
 
     return (
-      <div class="page_wrap">
+      <div className="page_wrap">
        
         <div className="container">
           <div className="container_wrap container_wrap_one successStyle" >
