@@ -24,7 +24,7 @@ class App extends React.Component {
 
 
   render() {
-    console.log('react')
+    console.log('reac')
     return (<>
       <header className="header myMargin" >
         <img src={logo} alt="" className="logo" width="95px"/>
